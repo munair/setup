@@ -11,6 +11,10 @@
 #
 #
 
+LANGUAGE="ko_KR.UTF-8"
+LC_ALL="C"
+export LANGUAGE LC_ALL
+
 # Install nvm: node-version manager
 # https://github.com/creationix/nvm
 sudo apt-get install -y git
