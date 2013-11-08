@@ -5,12 +5,12 @@ Run this on a new AWS EC2 instance running Ubuntu 12.04.2 LTS to configure both 
 #!/bin/bash
 cd $HOME
 sudo apt-get install -y git-core
-git clone https://github.com/qu-engineering/setup.git
-./setup/setup.bash   
+git clone https://github.com/munair/setup.git
+./setup/nodeup.bash   
 
 ```
 
-See also http://github.com/munair/dotfiles and [Quilombola Engineering Dotfiles](https://github.com/qu-engineering/setup.git) for more details.
+See also http://github.com/munair/dotfiles and [Quilombola Engineering Dotfiles](https://github.com/munair/setup.git) for more details.
 
 
 
