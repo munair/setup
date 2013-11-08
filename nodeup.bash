@@ -69,7 +69,8 @@ git config --global credential.helper "cache --timeout=3600"
 
 # Next change into the app directory and get all
 # npm dependencies.
-cd $1; npm install express
-cd $1; npm install postmar
-cd $1; npm install swig --save
+cd $1
+npm install express
+npm install postmark
+npm install swig --save
 
