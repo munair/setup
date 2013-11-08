@@ -46,7 +46,7 @@ cd $HOME
 if [ -d ./dotfiles/ ]; then
     mv dotfiles dotfiles.old
 fi
-git clone https://github.com/qu-engineering/dotfiles.git
+git clone https://github.com/munair/dotfiles.git
 ln -sb dotfiles/.screenrc .
 ln -sb dotfiles/.bash_profile .
 ln -sb dotfiles/.vimrc .
