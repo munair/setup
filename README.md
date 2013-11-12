@@ -14,9 +14,14 @@ Configures both the machine and the environment for developing with node.js:
 #
 #
 
-ssh -i ~/Downloads/tokyomobile.pem ubuntu@$1 "git clone https://github.com/munair/setup.git"
-ssh -i ~/Downloads/tokyomobile.pem ubuntu@$1 "bash -x setup/nodeup.bash $2"
+ssh -i ~/Downloads/tokyomobile.pem ubuntu@$1 'sudo apt-get install -y git-core'
+ssh -i ~/Downloads/tokyomobile.pem ubuntu@$1 'git clone https://github.com/munair/setup.git'
+ssh -i ~/Downloads/tokyomobile.pem ubuntu@$1 'bash -x setup/nodeup.bash $2'
 
+echo ' '
+echo ' '
+echo 'to log in to $2 please use the following command:'
+echo 'ssh -i ~/Downloads/tokyomobile.pem ubuntu@$1'
 
 ```
 
