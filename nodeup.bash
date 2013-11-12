@@ -77,4 +77,5 @@ cd $1
 npm install express
 npm install postmark
 npm install swig --save
+npm install captcha
 
