@@ -31,6 +31,8 @@ sudo add-apt-repository -y ppa:chris-lea/node.js
 sudo apt-get update
 # Now install nodejs and npm
 sudo apt-get install -y nodejs
+# Now install libcurl3 because we need it later for node-curl
+sudo apt-get install -y libcurl3-dev
 
 # Load nvm and install latest production node
 source $HOME/.nvm/nvm.sh
