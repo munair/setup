@@ -40,6 +40,7 @@ nvm use v0.10.12
 # Install rlwrap to provide libreadline features with node
 # See: http://nodejs.org/api/repl.html#repl_repl
 sudo apt-get install -y rlwrap
+sudo apt-get install -y emacs24
 
 # Install Heroku toolbelt
 # https://toolbelt.heroku.com/debian
@@ -76,5 +77,5 @@ git config --global credential.helper "cache --timeout=3600"
 cd $1
 npm install express
 npm install postmark
-npm install swig --save
+npm install node-curl
 
